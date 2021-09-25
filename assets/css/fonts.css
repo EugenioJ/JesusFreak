@@ -1,0 +1,29 @@
+@font-face {
+    font-family: gotu;
+    src: url(../fonts/gotu/Gotu-Regular.ttf);
+
+}
+@font-face {
+    font-family: Aubrey;
+    src: url(../fonts/aubrey/AUBREY1__.TTF);
+}
+@font-face {
+    font-family: b612;
+    src: url(../fonts/b612/B612-Regular.ttf);
+}
+@font-face {
+    font-family: Gafata;
+    src: url(../fonts/Gafata/Gafata-Regular.ttf);
+}
+@font-face{
+    font-family: archivo;
+    src: url(../fonts/Archivo_black/ArchivoBlack-Regular.ttf)
+}
+@font-face {
+    font-family: gloria;
+    src: url(../fonts/gloria/GloriaHallelujah-Regular.ttf);
+}
+@font-face {
+    font-family: kalamr;
+    src: url(../fonts/kalam/Kalam-Regular.ttf);
+}

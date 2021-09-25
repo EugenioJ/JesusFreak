@@ -1,0 +1,239 @@
+main .cruz{
+    background-image:url("../images/R.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #13AFC2;
+    background-size: 62vh;
+    font-size: 45px;
+    position: relative;
+
+}
+#choice{
+ 
+    color: #FFFFFF;
+    position: absolute;
+    right: 60vw;
+    top: 40vh;
+    font-family: gotu;
+    text-shadow: black 3px 3px 5px;
+
+
+}
+#choose{
+    color: #FFFFFF;
+    position: absolute;
+    left: 60vw;
+    top: 10vh;
+    font-family: gotu;
+    text-shadow: black 3px 3px 5px;
+
+}
+#jf{
+    color: #DADADA;
+    position: absolute;
+    left: 58vw;
+    top: 55vh;
+    font-family: Gafata;
+    text-align: center;
+    
+}
+#jf h2{
+    color:#C21370;
+    font-family: aubrey;
+    text-shadow: black 5px 5px 10px;
+}
+.app{
+    min-height: 80vh;
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.wrapper{
+    flex-wrap: wrap;
+}
+.first-block{
+    background-color: #13AFC2;
+    max-width: 500px;
+    height: 50vh;
+    box-shadow: white -30px -30px 0px 0px; 
+    display: flex;
+    margin-top: 65px;
+    
+    
+}
+.second-block{
+    background-color: #13AFC2;
+    width: 500px;
+    height: 50vh;
+    box-shadow: white 30px 30px 0px 0px; 
+    align-self: flex-end;
+    margin-bottom: 65px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+   
+    
+    
+    
+}
+.second-content{
+    position: relative;
+}
+.first-block p{
+    
+    font-size: 25px;
+    font-family: archivo;
+
+    text-shadow: black 1px 1px;
+    padding: 30px 15px 20px 25px;
+}
+#first-text p{
+    color: #FFB69F;
+    text-shadow:  1px 1px 5px black;
+}
+#second-text{
+    color: black;
+    padding-left: 55px;
+    text-shadow:  3px 5px #FFB69F;
+   
+
+}
+#second-text p, #third-text p{
+    text-shadow:  1px -1px 5px #FFB69F;
+}
+.second-block p{
+    position: absolute;
+}
+.svg_hands{
+    min-height: 60vh;
+}
+.cross_img{
+    width: 80%;
+   
+}
+.cross_img img{
+    border-radius: 100%;
+    width: 100%;
+    border: solid;
+    border-top: 3px #F63E43 solid;
+    border-right: 2px #F63E43 solid;
+    border-left: 1px #F63E43 solid;
+    border-bottom: 1px #F63E43 solid;
+    animation: borda_pulse 3s infinite;
+    
+
+}
+@keyframes borda_pulse {
+    0% {
+        transform:scale(1);
+    }
+    25%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+
+}
+.atb{
+   
+    background-color: #DADADA;
+    display: flex;
+    width: 100%;
+}
+.third{
+    display: flex;
+    justify-content: space-around;
+    min-height: 40vh;
+    flex-wrap: wrap;
+}
+.third div div{
+    background-color: #39868F;
+    min-width: 25vw;
+    height: 6vh;
+    justify-content: space-around;
+}
+.video_block{
+    display: flex;
+    align-items: center;
+    
+    
+ 
+
+   
+}
+.video_block iframe{
+    width: 560px;
+   height: 315px;
+}
+.lines {
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.lines div{
+    display: flex;
+    align-items: center;
+    border: 1px black solid;
+}
+.lines p{
+    font-family: B612;
+    font-size: 25px;
+
+
+}
+.download{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    width: 600px;
+    top: 90px;
+    text-align: center;
+    font-family: kalamr;
+        
+}
+.contrib{
+    background-color: rgb(218, 214, 213);
+    min-height: 40vh;
+    display: flex;
+    
+    
+}
+.four_content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.four_content h2{
+    font-size: 70px;
+    font-family: b612;
+    border-bottom: 1px black solid;
+    
+    
+}
+.four_content p{
+    font-size: 25px;
+    max-width: 400px;
+    font-family: gafata;
+    margin-top: 15px;
+}
+.donate, .help_us{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+    margin-right: 40px;
+}
+.help_us_svg{
+    padding-top: 10px
+}
