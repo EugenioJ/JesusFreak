@@ -8,6 +8,7 @@ header{
     align-items: center;
     background-color: #1D1919;
     font-family: aubrey;
+    
 }
 
 header h1{
@@ -22,6 +23,7 @@ ul{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    max-width: 40vw;
     
 }
 li{
