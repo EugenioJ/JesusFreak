@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 .banner video{
-    min-width: 99vw;
+    min-width: 100vw;
     min-height: 99vh;
     overflow: hidden;
 
@@ -12,7 +12,11 @@
     
 
 }
-picture {
+.download_b{
+    display: flex;
+}
+
+main picture {
 
     max-width: 700px;
     height: 99vh;
@@ -24,27 +28,19 @@ picture {
     right: 0;
     text-align: center;
 }
-picture img{
+main picture img{
     height: 100%;
     width: 100%;
 }
 main .cruz{
-
-    background-image:url("../images/R.png"), url("../video/Video\ free\ -\ Fogo\ e\ Chamas_360P.mp4");
-   
-
-    
-    
     height: 90vh;
-    background-attachment:local;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 62vh;
     font-size: 45px;
     position: relative;
 
 }
-
+a{
+    color:rgb(218, 214, 213)
+}
 #choice{
  
     color: #FFFFFF;
@@ -61,7 +57,7 @@ main .cruz{
     color: #FFFFFF;
     position: absolute;
     left: 60vw;
-    top: 10vh;
+    top: 19vh;
     font-family: gotu;
     text-shadow: black 3px 3px 5px;
 
@@ -73,6 +69,8 @@ main .cruz{
     top: 55vh;
     font-family: Gafata;
     text-align: center;
+
+    
     
 }
 #jf h2{
@@ -102,22 +100,24 @@ main .cruz{
     
 }
 .second-block{
-    background-color:white;
-    width: 500px;
-    height: 50vh;
-    border-radius: 100%;
-
-    align-self: flex-end;
-    margin-bottom: 65px;
-    align-items: center;
+    justify-content: space-between;
     display: flex;
-    justify-content: center;
+    min-height: 600px;
+    align-items: flex-end;
 
 
    
     
     
     
+}
+.location ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.location li{
+    padding: 5px
 }
 .second-content{
     position: relative;
@@ -175,7 +175,7 @@ main .cruz{
     border-right: 2px #F63E43 solid;
     border-left: 1px #F63E43 solid;
     border-bottom: 1px #F63E43 solid;
-    animation: borda_pulse 3s infinite;
+    
     
 
 }
@@ -185,7 +185,7 @@ main .cruz{
     }
     
     50% {
-        transform: translate(0%, -10%);
+        transform: translate(0%, -20%);
     }
     100%{
         transform: translate(0%);
@@ -204,7 +204,7 @@ main .cruz{
     flex-wrap: wrap;
 }
 .third div div{
-    background-color: #39868F;
+    background-color: black;
     min-width: 25vw;
     height: 6vh;
     justify-content: space-around;
@@ -222,6 +222,33 @@ main .cruz{
     width: 560px;
    height: 315px;
 }
+@media screen and (max-width: 1090px){
+    #choose{
+        top: 15px;
+        left: 65vw;
+    }
+    .lines{
+        min-width: 400px;
+    }
+    .third{
+        min-height: 80vh;
+    }
+    .store_b{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .video_block iframe{
+        width: 470px;
+        height: 315px;
+        
+    }
+   
+    .third{
+        min-height: 80vh;
+    }
+}
 .lines {
     display: flex;
     justify-content: space-around;
@@ -231,19 +258,35 @@ main .cruz{
 .lines div{
     display: flex;
     align-items: center;
-    border: 1px black solid;
+    border: 1px #F63E43 solid;
+    border-radius: 5px;
 }
+@keyframes scalees {
+    0% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.lines div:hover{
+    animation: scalees 1s ease-out infinite;
+
+}
+
 .lines p{
     font-family: B612;
     font-size: 25px;
+    color: white
 
 
 }
 .download{
     display: flex;
-    align-self: flex-end;
-    border: 1px white solid;
-    padding: 0 15px 0 15px
+    justify-content: space-around;
     
 }
 .download p{
@@ -297,4 +340,10 @@ main .cruz{
 }
 .need_help{
 
+}
+.store_b{
+    max-width: 300px;
+}
+.store_b img{
+    width: 100%;
 }

@@ -1,7 +1,8 @@
 header{
     background-color: #1D1919 ;
+    
 }
-.top{
+header .top{
     display: flex;
     justify-content: space-around   ;
     min-height: 8vh;
@@ -10,13 +11,12 @@ header{
     font-family: aubrey;
     
 }
-
-header h1{
-    color: #C21370;
+header .f2 a{
+    color: #C21370 !important;
     font-size: 65px;
-    text-shadow: black 5px 5px 10px;
+    text-shadow: black 5px 5px 10px !important;
 }
-ul{
+header ul{
     
     align-items: center;
     justify-content: space-around;
@@ -26,7 +26,7 @@ ul{
     max-width: 40vw;
     
 }
-li{
+header menu_header a{
     border: 1px solid #F63E43;
     height: 35px;
     width: 150px;
@@ -38,10 +38,42 @@ li{
     background-color: #F63E43;
     font-family: b612;
     box-shadow: black 4px 4px 4px 1px;
-    margin: 10px  10px 10px 0px
-    
- 
+    margin: 10px  10px 10px 0px;
 }
-.menu_header{
+header .menu_header{
     flex-wrap: wrap;
+    display: flex;
+}
+header .menu_header a:hover{
+    box-shadow: 1px 1px 1px white;
+    background-color: #13AFC2;
+    border-color: #13AFC2;
+}
+header .mm_line{
+    background-color: #F63E43;
+    height: 5px;
+    margin: 10px;
+    display: flex;
+
+}
+.menu-mobile{
+    position: absolute;
+    width: 70px;
+    height: 25px;
+    right: 25px;
+
+}
+header .menu_header a{
+    border: 1px solid #F63E43;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #F63E43;
+    font-family: b612;
+    box-shadow: black 4px 4px 4px 1px;
+    margin: 10px  10px 10px 0px;
 }

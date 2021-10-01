@@ -2,4 +2,139 @@ footer{
   
     background-color: #2D3436;
     min-height: 30vh;
+    text-align: center;
+    border-top: 1px black solid;
+    
+
+    
+}
+
+footer .jf{
+    color: #C21370;
+    font-size: 40px;
+    text-shadow: black 5px 5px 10px;
+    font-family: aubrey;
+    height: min-content;
+    display: flex;
+    align-self: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    min-width: 350px;
+    
+}
+footer section{
+    min-width: 350px;
+}
+    
+footer ul{
+    display: flex;
+
+}
+
+
+footer li div{
+    display: flex;
+}
+.social_icons{
+    justify-content: space-evenly;
+   display: flex;
+   width: 80%;
+   
+}
+.social_icons a{
+
+    justify-content: space-evenly;
+
+  
+}
+
+.social_icons div{
+    max-width: 70px;
+    margin-left: 15px;
+
+}
+
+ul, li{
+    list-style: none;
+    text-align: center;
+}
+.contact h2, .location h2{
+    font-size: 40px;
+    font-family: gafata;
+    color:#13AFC2;
+    text-shadow: black 5px 5px 10px;
+    
+}
+.contact p, .location p{
+    color:rgb(218, 214, 213);
+    text-shadow: 3px 2px 2px black;
+
+}
+
+footer h2{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.contact div{
+    align-self: flex-end;
+    padding-top: 5px;
+    
+}
+.contact ul li div {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px  0px 25px;
+    font-family: gafata;
+    font-size: 20px;
+    
+}
+.contact{
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    min-width: 350px;
+  
+
+}
+.location{
+    display: flex;
+    font-family: gafata;
+ 
+   
+}
+.location ul{
+   
+    align-items: center;
+    margin-left: 5px;
+
+
+}
+.location ul li div{
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact ul{
+    flex-wrap: wrap;
+}
+.credits{
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+    color: White;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: gotu;
+}
+footer h3{
+    color:#13AFC2;
+    text-shadow: 3px 1px 1px black;
+
+}
+footer div{
+}
+.credits a{
+    color: white;
 }
