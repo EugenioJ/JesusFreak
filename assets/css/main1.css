@@ -333,7 +333,7 @@ a{
     }   
     .third{
         min-height: 80vh;
-        width: 100%;
+        width: 100vw;
     }
     #choose{
         left: 65vw;
