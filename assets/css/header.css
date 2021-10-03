@@ -1,6 +1,6 @@
 header{
     background-color: #1D1919 ;
-    min-height: 75px;
+    min-height: 8vh;
     
 }
 header .top{
@@ -108,7 +108,7 @@ header .menu_header a{
             flex-direction: column;
             position: absolute;
             right: 1px;
-            top: 0px;
+            top: -5px;
             padding: 0;
            
             width: 80px;
