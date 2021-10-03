@@ -1,6 +1,7 @@
 header{
     background-color: #1D1919 ;
     min-height: 8vh;
+    position: relative;
     
 }
 header .top{
@@ -130,7 +131,7 @@ header .menu_header a{
         }
         .menu-mobile{
         display: flex;
-        padding-bottom: 15x;
+
         flex-direction: column;
         }
         .menu_header a{
@@ -142,8 +143,8 @@ header .menu_header a{
         }
         .mm_line{
             background-color: #02a2dc;
-            height: 5px;
-            margin: 5px;
+            height: auto;
+            margin: auto;
         }
     }
 }
