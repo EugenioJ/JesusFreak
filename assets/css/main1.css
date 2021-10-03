@@ -328,13 +328,9 @@ a{
     .container{
         margin: 0 0 !important;
     }
-    .second-content{
+    .second-content, .video_block {
         width: 100% !important;
     }   
-    .video_block {
-      width: 100%;
-    }
-   
     .third{
         min-height: 80vh;
         width: 100%;
@@ -382,13 +378,8 @@ a{
 
     }
    
-  
-    .atb{
-        width: 99%;
-
-    }
     .video_block iframe{
-        width: 100%;
+        width: 100%!important;
     }
 }
 
