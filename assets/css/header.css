@@ -1,13 +1,13 @@
 header{
     background-color: #1D1919 ;
-    min-height: 80px;
+    min-height: 80px!important;
     position: relative;
     
 }
 header .top{
     display: flex;
     justify-content: space-around   ;
-    min-height: 80px;
+    min-height: 80px!important;
     align-items: center;
     background-color: #1D1919;
     font-family: aubrey;
