@@ -336,12 +336,10 @@ a{
         min-height: 80vh;
         width: 100vw;
     }
-    #choose{
-        left: 65vw;
-    }
     #jf, #choose, #choice{
-        font-size: 35px;
+        font-size: 30px;
     }
+   
     .jf h2{
         font-size: 35px;
 
