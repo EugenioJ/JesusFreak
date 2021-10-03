@@ -220,7 +220,7 @@ a{
 }
 .video_block iframe{
     width: 560px;
-   height: 315px;
+    height: 315px;
 }
 @media screen and (max-width: 1100px){
     #choose{
@@ -248,16 +248,17 @@ a{
     }
     .second-content{
         width: 100%;
-    }
+    }   
     .video_block {
       width: 100%;
     }
    
     .third{
         min-height: 80vh;
+        width: 100%;
     }
     #choose{
-        left: 40px
+        left: 65vw;
     }
     #jf, #choose, #choice{
         font-size: 25px;
