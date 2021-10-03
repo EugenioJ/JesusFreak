@@ -326,7 +326,7 @@ a{
 
 @media screen and (max-width: 600px){
     .container{
-        margin: 0 0;
+        margin: 0 0 !important;
     }
     .second-content{
         width: 100% !important;
