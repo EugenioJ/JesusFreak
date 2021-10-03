@@ -327,6 +327,7 @@ a{
 @media screen and (max-width: 600px){
     .container{
         margin: 0 0 !important;
+        width: 100vw;
     }
     .second-content, .video_block {
         width: 100% !important;
