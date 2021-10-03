@@ -9,7 +9,20 @@
     <link rel="stylesheet" type="text/css" media='screen' href="assets/css/header.css">
     <link rel="stylesheet" type="text/css" media='screen' href="assets/css/fonts.css">
     <link rel="stylesheet" type="text/css" media='screen' href="assets/css/footer.css">
-    <script src="assets/js/JavaScriptHeader.js"></script>
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu-mobile").addEventListener("click", function() {
+                if(document.querySelector(".menu_header nav ul").style.display == "flex")
+                {
+                    document.querySelector(".menu_header nav ul").style.display = "none";
+                }else {
+                    document.querySelector(".menu_header nav ul").style.display = "flex";
+                }
+            });
+        };
+
+    </script>
+
     <style>
         *{
             margin: 0;
