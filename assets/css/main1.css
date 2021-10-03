@@ -385,6 +385,10 @@ a{
   
     .atb{
         width: 99%;
+
+    }
+    .video_block iframe{
+        width: 100%;
     }
 }
 

@@ -49,10 +49,15 @@ footer li div{
 }
 
 .social_icons div{
+  
     margin-left: 15px;
 
 }
 
+ul, li{
+    list-style: none;
+    text-align: center;
+}
 .contact h2, .location h2{
     font-size: 40px;
     font-family: gafata;
@@ -63,6 +68,7 @@ footer li div{
 .contact p, .location p{
     color:rgb(218, 214, 213);
     text-shadow: 3px 2px 2px black;
+
 }
 
 footer h2{
@@ -72,6 +78,7 @@ footer h2{
 .contact div{
     align-self: flex-end;
     padding-top: 5px;
+    
 }
 .contact ul li div {
     align-self: flex-end;
@@ -83,9 +90,11 @@ footer h2{
     flex-wrap: wrap;
     
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px)
+{
     .contact ul li div{   
-        margin: 0;
+        margin: 0 0 0 0;
+        
     }
     footer section{
         min-width: 200px;
@@ -96,6 +105,7 @@ footer h2{
     }
     .help_us, .need_help, .donate{
         margin-bottom: 40px!important;
+
     }
     footer li div{
         flex-wrap: wrap !important;
