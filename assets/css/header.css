@@ -1,13 +1,13 @@
 header{
     background-color: #1D1919 ;
-    min-height: 8vh;
+    min-height: 80px;
     position: relative;
     
 }
 header .top{
     display: flex;
     justify-content: space-around   ;
-    min-height: 8vh;
+    min-height: 80px;
     align-items: center;
     background-color: #1D1919;
     font-family: aubrey;
@@ -140,11 +140,6 @@ header .menu_header a{
             font-size: large;
             border-radius: 3px;  
         
-        }
-        .mm_line{
-            background-color: #02a2dc;
-            height: auto;
-            margin: auto;
         }
     }
 }
