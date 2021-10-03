@@ -19,11 +19,11 @@ footer .jf{
     align-self: flex-start;
     align-content: center;
     flex-wrap: wrap;
-    min-width: 350px;
+   
     
 }
 footer section{
-    min-width: 350px;
+    min-width: 200px;
 }
     
 footer ul{
@@ -87,12 +87,31 @@ footer h2{
     margin: 0 25px  0px 25px;
     font-family: gafata;
     font-size: 20px;
+    flex-wrap: wrap;
     
 }
+@media screen and (max-width: 600px)
+{
+    .contact ul li div{   
+        margin: 0 0 0 0;
+        
+    }
+    footer section{
+        min-width: 200px;
+    }
+        
+    .credits a{
+        font-size: 16px;
+    }
+    .help_us, .need_help, .donate{
+        margin-bottom: 40px!important;
+    }
+}
+    
 .contact{
     border-right: 1px black solid;
     border-left: 1px black solid;
-    min-width: 350px;
+    flex-wrap: wrap;
   
 
 }
