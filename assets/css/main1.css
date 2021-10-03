@@ -222,74 +222,7 @@ a{
     width: 560px;
     height: 315px;
 }
-@media screen and (max-width: 1100px){
-    #choose{
-        top: 15px;
-        left: 65vw;
-    }
-    .lines{
-        width: 70vw;
-        height: 35vh;
-       
-    }
-    .lines div p{
-        font-size: 16px;}
-    .third{
-        min-height: 80vh;
-    }
-    .store_b{
-        margin-right: 10px;
-    }
-}
 
-@media screen and (max-width: 600px){
-    .container{
-        margin: 1px 1px;
-    }
-    .second-content{
-        width: 100%;
-    }   
-    .video_block {
-      width: 100%;
-    }
-   
-    .third{
-        min-height: 80vh;
-        width: 100%;
-    }
-    #choose{
-        left: 65vw;
-    }
-    #jf, #choose, #choice{
-        font-size: 25px;
-    }
-    .cruz{
-        height: 300px;
-    }
-    .first-block p{
-        margin-bottom: 15px;
-    }
-    .contrib {
-        align-items: center;
-    }
-    .contrib div{
-        width: 100%;
-    }
-    .third{
-        width: 100%;
-        align-self: center;
-    }
-    .download{
-        margin-top: 20px;
-    }
-    .donate, .help_us, .need_help{
-        margin-right: 0px !important;
-        min-width: 200px;
-    }
-    footer li div{
-        flex-wrap: wrap !important;
-    }
-}
 
 
 .lines {
@@ -376,17 +309,108 @@ a{
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    margin-right: 40px;
+    max-width: 700px;
+
 }
 .help_us_svg{
     padding-top: 10px
 }
-.need_help{
 
-}
 .store_b{
     max-width: 300px;
 }
 .store_b img{
     width: 100%;
+}
+
+
+@media screen and (max-width: 600px){
+    .container{
+        margin: 1px 1px;
+    }
+    .second-content{
+        width: 100% !important;
+    }   
+    .video_block {
+      width: 100%;
+    }
+   
+    .third{
+        min-height: 80vh;
+        width: 100%;
+    }
+    #choose{
+        left: 65vw;
+    }
+    #jf, #choose, #choice{
+        font-size: 25px;
+    }
+    .jf h2{
+        font-size: 35px;
+
+    }
+    
+    .cruz{
+
+        height: 300px;
+    }
+    .first-block p{
+        margin-bottom: 15px;
+    }
+    .contrib {
+        align-items: center;
+    }
+    .contrib div{
+        width: 100%;
+    }
+    .third{
+        width: 100%;
+        align-self: center;
+    }
+    .download{
+        margin-top: 20px;
+    }
+    .donate, .help_us, .need_help{
+        margin-right: 0px !important;
+        text-align: center;
+        
+    }
+    .donate div , .help_us div, .need_help div{
+        align-items: center ; 
+        display: flex;
+        justify-content: center !important;
+
+    }
+   
+  
+    .atb{
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    #choose{
+        top: 15px;
+        left: 65vw;
+    }
+    .lines{
+        width: 70vw;
+        height: 35vh;
+       
+    }
+    .lines div p{
+        font-size: 16px;}
+    .third{
+        min-height: 80vh;
+    }
+    .store_b{
+        margin-right: 10px;
+    }
+    .donate, .help_us, .need_help, .video_block{
+    
+        align-self: center;
+    }
+    .four_content{
+        flex-direction: column;
+    }
 }
