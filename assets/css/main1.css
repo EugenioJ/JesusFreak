@@ -15,8 +15,17 @@
 .download_b{
     display: flex;
 }
+.mockup{
+    display: flex;
+}
+.mockup img{
+    justify-self: flex-end;
+    display: flex;
+    max-width: 45vw;
 
-main picture {
+  
+}
+main .cruz picture {
 
     max-width: 700px;
     height: 99vh;
@@ -28,7 +37,7 @@ main picture {
     right: 0;
     text-align: center;
 }
-main picture img{
+main .cruz  picture img{
     height: 100%;
     width: 100%;
 }
@@ -100,7 +109,7 @@ a{
     
 }
 .second-block{
-    justify-content: space-between;
+    justify-content: flex-end;
     display: flex;
     min-height: 600px;
     align-items: flex-end;
@@ -383,7 +392,14 @@ a{
     .top h1 a{
         font-size: 45px!important;
     }
+    .second-block{
+        min-height: 400px;
+    }
+    .mockup img{
+        min-width: 300px!important;
+    }
 }
+
 
 @media screen and (max-width: 1100px){
     #choose{
@@ -410,4 +426,15 @@ a{
     .four_content{
         flex-direction: column;
     }
+    .second-content{
+        flex-direction: column;
+    }
+    .second-block{
+        justify-content: space-around;
+    }
+    .mockup img{
+        max-width: 100%;
+        min-width: 600px;
+    }
 }
+
