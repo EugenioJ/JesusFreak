@@ -3,28 +3,27 @@
     height: 100vh;
     overflow: hidden;
 }
+
 .banner video{
     min-width: 100vw;
     min-height: 99vh;
     overflow: hidden;
-
-
-    
-
 }
+
 .download_b{
     display: flex;
 }
+
 .mockup{
     display: flex;
 }
+
 .mockup img{
     justify-self: flex-end;
     display: flex;
     max-width: 45vw;
-
-  
 }
+
 main .cruz picture {
 
     max-width: 700px;
@@ -47,9 +46,15 @@ main .cruz{
     position: relative;
 
 }
-a{
-    color:rgb(218, 214, 213)
+main a{
+  text-decoration: none ;
+  color: black;
 }
+main a:hover{
+    text-shadow: 1px 1px 3px #13AFC2;
+    animation: jump 1s ease-out infinite;
+}
+
 #choice{
  
     color: #FFFFFF;
@@ -59,9 +64,8 @@ a{
     font-family: gotu;
     text-align: left;
     text-shadow: black 3px 3px 5px;
-
-
 }
+
 #choose{
     color: #FFFFFF;
     position: absolute;
@@ -69,8 +73,8 @@ a{
     top: 19vh;
     font-family: gotu;
     text-shadow: black 3px 3px 5px;
-
 }
+
 #jf{
     color: #DADADA;
     position: absolute;
@@ -78,25 +82,25 @@ a{
     top: 55vh;
     font-family: Gafata;
     text-align: center;
-
-    
-    
 }
+
 #jf h2{
     color:#C21370;
     font-family: aubrey;
     text-shadow: black 5px 5px 10px;
 }
+
 .app{
     min-height: 80vh;
     background-color: black;
     justify-content: space-around;
     display: flex;
-    
 }
+
 .wrapper{
     flex-wrap: wrap;
 }
+
 .first-block{
     justify-content: space-around;
     max-width: 700px;
@@ -105,34 +109,30 @@ a{
     margin-top: 65px;
     min-height: 600px;
     
-    
-    
 }
+
 .second-block{
     justify-content: flex-end;
     display: flex;
     min-height: 600px;
     align-items: flex-end;
-
-
-   
-    
-    
-    
 }
 .location ul{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 .location li{
     padding: 5px
 }
+
 .second-content{
     position: relative;
     justify-content: space-between;
     align-items: center;
 }
+
 .first-block p{
     font-size: 25px;
     font-family: archivo;
@@ -140,42 +140,47 @@ a{
     max-width: 550px;
     justify-content: space-around;
 }
+
 #first-text{
     align-self: flex-start;
 }
+
 #first-text p{
     color: #FFB69F;
-    text-shadow:  1px 1px 5px black;
-    
+    text-shadow:  1px 1px 5px black;    
 }
+
 #second-text{
     padding-left: 55px;
     text-shadow:  3px 5px #FFB69F;
     
     word-wrap: break-word;
     align-self: center;
-
-
 }
+
 #third-text{
     margin-left: 120px;
 }
+
 #second-text p, #third-text p{
     text-shadow:  1px -1px 5px #FFB69F;
     color: white;
 }
+
 .second-block p{
     position: absolute;
 }
+
 .svg_hands{
     min-height: 60vh;
 }
+
 .cross_img{
     background-color: #F63E43;
     border-radius: 100%;
     align-self: center;
-   
 }
+
 .cross_img img{
     border-radius: 100%;
     width: 100%;
@@ -184,15 +189,12 @@ a{
     border-right: 2px #F63E43 solid;
     border-left: 1px #F63E43 solid;
     border-bottom: 1px #F63E43 solid;
-    
-    
-
 }
+
 @keyframes borda_pulse {
     0% {
         transform:translate top(0%);
-    }
-    
+    }    
     50% {
         transform: translate(0%, -20%);
     }
@@ -200,52 +202,49 @@ a{
         transform: translate(0%);
     }
 }
+
 .atb{
-   
     background-color: #DADADA;
     display: flex;
     width: 100%;
 }
+
 .third{
     display: flex;
     justify-content: space-around;
     min-height: 40vh;
     flex-wrap: wrap;
 }
+
 .third div div{
     background-color: black;
     min-width: 25vw;
     height: 6vh;
     justify-content: space-around;
 }
+
 .video_block{
     display: flex;
-    align-items: center;
-    
-    
- 
-
-   
+    align-items: center;   
 }
+
 .video_block iframe{
     width: 560px;
     height: 315px;
 }
 
-
-
 .lines {
     display: flex;
     justify-content: space-around;
-   
-
 }
+
 .lines div{
     display: flex;
     align-items: center;
     border: 1px #F63E43 solid;
     border-radius: 5px;
 }
+
 @keyframes scalees {
     0% {
         transform: scale(1);
@@ -257,25 +256,23 @@ a{
         transform: scale(1);
     }
 }
+
 .lines div:hover{
     animation: scalees 1s ease-out infinite;
-
 }
 
 .lines p{
     font-family: B612;
     font-size: 25px;
     color: white
-
-
 }
+
 .download{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
 }
+
 .download p{
-    
     align-self: flex-end;
     color: white;
     font-size: 70px;
@@ -283,36 +280,35 @@ a{
     max-width: max-content;
     font-family: kalamr;
     padding: 0;
-    margin: 0;
-        
+    margin: 0;  
 }
+
 .contrib{
     background-color: rgb(218, 214, 213);
     min-height: 40vh;
     display: flex;
-    
-    
 }
+
 .four_content{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     min-height: 50vh;
-    
 }
+
 .four_content h2{
     font-size: 70px;
     font-family: b612;
     border-bottom: 1px black solid;
-    
-    
 }
+
 .four_content p{
     font-size: 25px;
     max-width: 400px;
     font-family: gafata;
     margin-top: 15px;
 }
+
 .donate, .help_us, .need_help{
     display: flex;
     align-items: center;
@@ -321,6 +317,7 @@ a{
     max-width: 700px;
 
 }
+
 .help_us_svg{
     padding-top: 10px
 }
@@ -328,45 +325,50 @@ a{
 .store_b{
     max-width: 300px;
 }
+
 .store_b img{
     width: 100%;
 }
-
 
 @media screen and (max-width: 600px){
     .container{
         margin: 0 0 !important;
         width: 100vw !important ;
     }
+    
     .second-content, .video_block {
         width: 100% !important;
     }   
+    
     .third{
         min-height: 80vh;
         width: 100vw;
     }
+    
     #jf, #choose, #choice{
         font-size: 30px;
     }
    
     .jf h2{
         font-size: 35px;
-
     }
     
     .cruz{
-
         height: 300px;
     }
+    
     .first-block p{
         margin-bottom: 15px;
     }
+    
     .contrib {
         align-items: center;
     }
+    
     .contrib div{
         width: 100%;
     }
+    
     .third{
         width: 100%;
         align-self: center;
@@ -374,27 +376,30 @@ a{
     .download{
         margin-top: 20px;
     }
+    
     .donate, .help_us, .need_help{
         margin-right: 0px !important;
-        text-align: center;
-        
+        text-align: center;  
     }
+    
     .donate div , .help_us div, .need_help div{
         align-items: center ; 
         display: flex;
         justify-content: center !important;
-
     }
    
     .video_block iframe{
         width: 100%!important;
     }
+    
     .top h1 a{
         font-size: 45px!important;
     }
+    
     .second-block{
         min-height: 400px;
     }
+    
     .mockup img{
         min-width: 300px!important;
     }
@@ -406,32 +411,39 @@ a{
         top: 15px;
         left: 65vw;
     }
+    
     .lines{
         width: 70vw;
         height: 35vh;
-       
     }
+    
     .lines div p{
         font-size: 16px;}
+    
     .third{
         min-height: 80vh;
     }
+    
     .store_b{
         margin-right: 10px;
     }
-    .donate, .help_us, .need_help, .video_block{
     
+    .donate, .help_us, .need_help, .video_block{
         align-self: center;
     }
+    
     .four_content{
         flex-direction: column;
     }
+    
     .second-content{
         flex-direction: column;
     }
+    
     .second-block{
         justify-content: space-around;
     }
+    
     .mockup img{
         max-width: 100%;
         min-width: 600px;

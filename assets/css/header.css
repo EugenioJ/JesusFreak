@@ -83,10 +83,7 @@ header .menu_header a{
 @media only screen and (max-width: 1350px){
     .top{
         flex-direction: column!important;
-
     }
-    
-    
 }
 
 @media(max-width: 850px){
@@ -99,12 +96,15 @@ header .menu_header a{
         .f2{
             flex: none!important
         }
+        
         header .top{
             align-items:  flex-start!important;
         }
+        
         header .top h1 a{
             margin-left: 10px;
         }
+        
         .menu_header{
             flex-direction: column;
             position: absolute;
@@ -114,6 +114,7 @@ header .menu_header a{
            
             width: 80px;
         }
+        
         .menu_header ul{
             right: 25px;
             flex-direction: column;
@@ -129,11 +130,12 @@ header .menu_header a{
         .align-header{
             flex-direction: row;
         }
+        
         .menu-mobile{
         display: flex;
-
         flex-direction: column;
         }
+        
         .menu_header a{
             justify-content: space-evenly;
             border: 1px black solid;

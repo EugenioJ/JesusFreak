@@ -4,9 +4,6 @@ footer{
     min-height: 30vh;
     text-align: center;
     border-top: 1px black solid;
-    
-
-    
 }
 
 footer .jf{
@@ -19,67 +16,81 @@ footer .jf{
     align-self: flex-start;
     align-content: center;
     flex-wrap: wrap;
-   
-    
 }
+
 footer section{
     min-width: 200px;
 }
     
 footer ul{
     display: flex;
-
 }
-
 
 footer li div{
     display: flex;
 }
+
 .social_icons{
     justify-content: space-evenly;
    display: flex;
-  
-   
 }
+
 .social_icons a{
-
     justify-content: space-evenly;
+}
 
-  
+footer a p:hover{
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
 }
 
 .social_icons div{
-  
     margin-left: 15px;
-
 }
 
+.jf svg:hover{
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #C21370;
+    animation: jump 1s infinite;
+}
+
+@keyframes jump{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-2px)
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
 ul, li{
     list-style: none;
     text-align: center;
 }
+
 .contact h2, .location h2{
     font-size: 40px;
     font-family: gafata;
     color:#13AFC2;
     text-shadow: black 5px 5px 10px;
-    
 }
+
 .contact p, .location p{
     color:rgb(218, 214, 213);
     text-shadow: 3px 2px 2px black;
-
 }
 
 footer h2{
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 .contact div{
     align-self: flex-end;
     padding-top: 5px;
-    
 }
+
 .contact ul li div {
     align-self: flex-end;
     display: flex;
@@ -88,8 +99,8 @@ footer h2{
     font-family: gafata;
     font-size: 20px;
     flex-wrap: wrap;
-    
 }
+
 @media screen and (max-width: 600px)
 {
     .contact ul li div{   
@@ -112,34 +123,32 @@ footer h2{
     }
 }
     
+
 .contact{
     border-right: 1px black solid;
     border-left: 1px black solid;
-    flex-wrap: wrap;
-  
-
+    flex-wrap: wrap;  
 }
+
 .location{
     display: flex;
     font-family: gafata;
- 
-   
 }
+
 .location ul{
-   
     align-items: center;
     margin-left: 5px;
-
-
 }
+
 .location ul li div{
     flex-direction: column;
     align-items: center;
-
 }
+
 .contact ul{
     flex-wrap: wrap;
 }
+
 .credits{
     background-color: black;
     width: 100%;
@@ -155,21 +164,18 @@ footer h2{
 footer h3{
     color:#13AFC2;
     text-shadow: 3px 1px 1px black;
+}
 
-}
-footer div{
-}
 .credits a{
     color: white;
 }
-
-
 @media screen and (max-width: 1100px){
     footer svg{
         min-width: 45px;
         flex-wrap: wrap;
         max-width: 70px;
     }
+    
     .social_icons{
        flex-wrap: wrap;
     }
